@@ -7,14 +7,12 @@ import { FadeIn } from "@/components/animations/FadeIn";
 import { SERVICES, SITE } from "@/lib/site";
 import { COPY } from "@/lib/content";
 import {
-  ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck,
-  Building2, Umbrella, PackageCheck, Factory, Gauge, Boxes, ArrowRight,
-  Milk, Droplets,
+  ShieldCheck, FileText, User, Briefcase, Building2, FileSearch,
+  FileCheck, BadgeCheck, ArrowRight,
 } from "lucide-react";
 
 const ICONS = {
-  ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck, Building2, Umbrella,
-  PackageCheck, Factory, Gauge, Boxes, Milk, Droplets,
+  ShieldCheck, FileText, User, Briefcase, Building2, FileSearch, FileCheck, BadgeCheck,
 } as const;
 
 export const metadata: Metadata = {
@@ -57,7 +55,7 @@ export default function ServicesPage() {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {SERVICES.map((s, i) => {
                 const Icon = ICONS[s.icon as keyof typeof ICONS] ?? ShieldCheck;
-                const featured = s.slug === "livestock-mortality";
+                const featured = s.slug === "exemption-filing";
                 return (
                   <FadeIn key={s.slug} delay={(i % 3) * 0.06}>
                     <Link href={`/services/${s.slug}`} className={`group relative block h-full p-7 rounded-3xl border transition-all duration-300 hover:-translate-y-1.5 ${featured ? "bg-espresso text-cream border-espresso shadow-warm-lg" : "bg-white text-espresso border-adobe shadow-card hover:shadow-card-hover"}`}>
