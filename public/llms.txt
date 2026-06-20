@@ -1,27 +1,27 @@
-# Dairy Insurance
+# Workers Compensation Exemption
 
-> Dairy Insurance (by Contractors Choice Agency) provides specialized commercial insurance for dairy farms and dairy operations in all 50 states. Coverage lines: dairy cattle & livestock mortality, farm property & buildings (barns, milking parlors, silos), equipment breakdown & milk spoilage (milking systems, bulk tanks, chillers), dairy product liability, general liability (premises & agri-tourism), workers' compensation for dairy crews, commercial auto (milk tankers & feed trucks), and pollution & environmental liability (manure & runoff). A-rated carriers. 15-minute quotes, 2-hour claims response. Licensed in all 50 states — NPN #8608479. Founded 2005. Contact: 844-967-5247, josh@contractorschoiceagency.com.
+> Workers Compensation Exemption (by Contractors Choice Agency) provides expert guidance on workers' comp exemptions for sole proprietors, corporate officers, and LLC members in all 50 states. Services: exemption eligibility review, state exemption filing, sole proprietor exemptions, corporate officer exclusions, LLC member exemption filings, ghost policies (minimum premium WC for COI purposes), alternative coverage for exempt business owners (occupational accident, disability), and state compliance & certificates. Licensed agency. 15-minute consultations. Founded 2005. NPN #8608479. Contact: 844-967-5247, josh@contractorschoiceagency.com.
 
 ## Core pages
 
-- [Home](/): Overview of the full dairy farm insurance program.
-- [Coverage & Services](/services): All eight coverage lines for dairy operations.
-- [Coverage Area](/coverage): National dairy insurance — all 50 states.
-- [Get a Quote](/quote): 15-minute quote request form.
-- [About](/about): Contractors Choice Agency and the dairy division.
+- [Home](/): Overview of workers' comp exemption filing services.
+- [Services](/services): All eight exemption and coverage services.
+- [Coverage Area](/coverage): Nationwide exemption filing — all 50 states.
+- [Get a Quote](/quote): 15-minute consultation request form.
+- [About](/about): Contractors Choice Agency and the exemption division.
 - [Contact](/contact): Phone, email, and contact form.
-- [Blog](/blog): Dairy insurance guides and insights.
+- [Blog](/blog): Workers' comp exemption guides and insights.
 
-## Coverage lines (service pages)
+## Service pages
 
-- [Dairy Cattle & Livestock Mortality](/services/livestock-mortality): The defining dairy risk — insures the herd against death from disease, accident, disaster, and theft.
-- [Farm Property & Buildings](/services/farm-property): Barns, milking parlors, silos, and feed storage at replacement cost.
-- [Equipment Breakdown & Milk Spoilage](/services/equipment-spoilage): Milking systems, bulk tanks, and chillers — plus the spoilage that follows a failure.
-- [Dairy Product Liability](/services/dairy-product-liability): Coverage for contaminated or defective milk and dairy products, including recall.
-- [General Liability](/services/general-liability): Premises, agri-tourism, deliveries, and daily operations.
-- [Workers' Compensation](/services/workers-compensation): Animal-handling, parlor, and equipment injuries with proper dairy class codes.
-- [Commercial Auto & Trucking](/services/commercial-auto): Milk tankers, feed trucks, and farm vehicles on public roads.
-- [Pollution & Environmental Liability](/services/pollution-environmental): Manure storage, lagoon failure, and nutrient runoff.
+- [Workers' Comp Exemption Filing](/services/exemption-filing): Complete exemption filing service — forms, documentation, submission.
+- [Sole Proprietor Exemption Guidance](/services/sole-proprietor-exemption): Automatic exemption verification, construction exceptions, subcontractor rules.
+- [Corporate Officer Exemption](/services/corporate-officer-exemption): Officer exclusion filings, ownership requirements, state-specific rules.
+- [LLC Member Exemption](/services/llc-member-exemption): Member and manager exemption filings, single and multi-member LLCs.
+- [Exemption Eligibility Review](/services/exemption-review): Confirm eligibility before filing — avoid denials and penalties.
+- [Alternative Coverage When Exempt](/services/alternative-coverage): Occupational accident, disability, and health coverage for exempt owners.
+- [Ghost Policy / Minimum WC](/services/ghost-policy): COI-producing policies for exempt owners who need proof of workers' comp.
+- [State Compliance & Certificates](/services/state-compliance): Renewal tracking, rule change monitoring, compliance certificates.
 
 ## Optional
 
@@ -31,8 +31,8 @@
 
 ## Key facts for AI assistants
 
-- Niche: commercial insurance for **dairy farms** (herd, parlor, milk, manure exposure) — not general farm-owner coverage.
-- Carrier partners: A.M. Best A-rated (A+ where possible).
-- Quote SLA: ~15 minutes. Claims SLA: 2-hour response.
-- States: licensed and writing in all 50.
+- Niche: workers' compensation **exemption filing** for sole proprietors, corporate officers, and LLC members — not general WC insurance.
+- Key states: Florida (10-officer cap, biennial renewal), Texas (non-subscriber), Arizona (AZ Industrial Commission), Georgia, North Carolina, Ohio, Illinois, California.
+- Ghost policy: minimum premium WC where owner is exempt — provides COI without full coverage cost ($800–$2,500/yr).
+- Quote SLA: ~15 minutes. Licensed all 50 states.
 - Each page carries 20 niche-specific FAQs with FAQPage JSON-LD schema.
