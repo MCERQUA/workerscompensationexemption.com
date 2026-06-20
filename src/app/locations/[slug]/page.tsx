@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const url = `${SITE.url}/locations/${slug}`;
   return {
     title: `${SITE.name} — ${loc.name}`,
-    description: `${loc.blurb} Livestock mortality, workers' comp, farm property, equipment & spoilage, and pollution for ${loc.name} dairy farms. 15-minute quotes.`,
+    description: `Workers' comp exemption filing, eligibility review, ghost policies, and alternative coverage for ${loc.name} business owners. 15-minute consultations.`,
     alternates: { canonical: url },
     openGraph: { title: `${SITE.name} — ${loc.name} | Contractors Choice Agency`, description: loc.blurb, url },
   };
@@ -89,7 +89,7 @@ export default async function LocationPage({ params }: Props) {
 
               <FadeIn direction="left" className="lg:col-span-5">
                 <div className="rounded-t-[10rem] rounded-b-3xl overflow-hidden border-4 border-white shadow-warm-lg">
-                  <img src="/images/coverage.jpg" alt={`Dairy farm in ${loc.name}`} className="w-full h-[300px] md:h-[360px] object-cover" loading="lazy" />
+                  <img src="/images/coverage.jpg" alt={`Workers' comp exemption filing assistance in ${loc.name}`} className="w-full h-[300px] md:h-[360px] object-cover" loading="lazy" />
                 </div>
               </FadeIn>
             </div>
@@ -99,9 +99,9 @@ export default async function LocationPage({ params }: Props) {
         <section className="bg-cream py-16 md:py-20">
           <div className="container-tight">
             <FadeIn className="max-w-2xl mb-10">
-              <span className="eyebrow"><span className="h-px w-8 bg-clay" />Coverage for {loc.name} dairies</span>
-              <h2 className="mt-3 h-section">The full program, built for {loc.name} dairy farms.</h2>
-              <p className="mt-4 lead">From a family operation to a multi-site production group, we coordinate every line a {loc.name} dairy needs.</p>
+              <span className="eyebrow"><span className="h-px w-8 bg-clay" />Exemption services for {loc.name} businesses</span>
+              <h2 className="mt-3 h-section">The complete exemption service, built for {loc.name} business owners.</h2>
+              <p className="mt-4 lead">From a sole proprietor to a multi-owner corporation, we handle every exemption filing a {loc.name} business owner needs.</p>
             </FadeIn>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {SERVICES.slice(0, 4).map((s, i) => (
@@ -117,9 +117,9 @@ export default async function LocationPage({ params }: Props) {
           </div>
         </section>
 
-        <FAQ items={locFaqs} eyebrow={`${loc.name} — FAQ`} title={<>Dairy insurance questions for <span className="text-clay">{loc.name}</span></>} background="sand" />
+        <FAQ items={locFaqs} eyebrow={`${loc.name} — FAQ`} title={<>Workers' comp exemption questions for <span className="text-clay">{loc.name}</span></>} background="sand" />
 
-        <CTABand title={`Insuring dairy farms in ${loc.name} since 2005`} description={`Local knowledge, A-rated markets, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`} />
+        <CTABand title={`Filing workers' comp exemptions in ${loc.name} since 2005`} description={`State-specific exemption expertise and 15-minute consultations. Call ${SITE.phone} or request guidance online.`} />
       </main>
       <Footer />
     </>

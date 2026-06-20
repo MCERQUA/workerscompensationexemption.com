@@ -35,14 +35,14 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: `${SITE.name} | Contractors Choice Agency`,
     description:
-      "Specialized insurance for dairy farms — livestock mortality, milking parlor & barn property, equipment breakdown with milk spoilage, product liability, manure-runoff pollution, workers' comp, and commercial auto. Licensed all 50 states. 15-min quotes.",
-    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: `${SITE.name} — dairy farm coverage` }],
+      "Expert guidance on workers' comp exemptions — sole proprietor exemptions, corporate officer exclusions, LLC member filings, ghost policies, and alternative coverage. All 50 states. Licensed agency. 15-minute consultations.",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: `${SITE.name} — workers comp exemption filing` }],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE.name} | Contractors Choice Agency`,
     description:
-      "Specialized insurance for dairy farms. Livestock mortality, parlor & barn property, equipment breakdown & milk spoilage, product liability, pollution, workers' comp, and auto. 15-minute quotes.",
+      "Expert workers' comp exemption guidance — sole proprietors, corporate officers, LLC members. Ghost policies, alternative coverage, state compliance. All 50 states. 15-minute consultations.",
     images: ["/images/og-image.jpg"],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
@@ -72,14 +72,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     employee: { "@type": "Person", name: "Josh Cotner", jobTitle: "Founder & Insurance Agent" },
     areaServed: { "@type": "Country", name: "United States" },
     serviceType: [
-      "Dairy Cattle & Livestock Mortality Insurance",
-      "Farm Property & Buildings Insurance for Dairies",
-      "Equipment Breakdown & Milk Spoilage Insurance",
-      "Dairy Product Liability Insurance",
-      "General Liability Insurance for Dairy Farms",
-      "Workers' Compensation for Dairy Crews",
-      "Commercial Auto & Trucking for Milk Tankers",
-      "Pollution & Environmental Liability for Dairies",
+      "Workers' Comp Exemption Filing",
+      "Sole Proprietor Exemption Guidance",
+      "Corporate Officer Exemption",
+      "LLC Member Exemption",
+      "Exemption Eligibility Review",
+      "Alternative Coverage for Exempt Business Owners",
+      "Ghost Policy / Minimum Workers Comp",
+      "State Compliance & Certificates",
     ],
   };
 
