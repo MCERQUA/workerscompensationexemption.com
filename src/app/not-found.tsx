@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Navbar } from "@/components/sections/Navbar";
 import { Footer } from "@/components/sections/Footer";
-import { ArrowRight, Home, Phone } from "lucide-react";
+import { ArrowRight, Home, Mail } from "lucide-react";
 import { SITE } from "@/lib/site";
 
 export default function NotFound() {
@@ -16,7 +16,7 @@ export default function NotFound() {
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link href="/" className="btn-primary"><Home className="h-5 w-5" />Back to home</Link>
             <Link href="/quote" className="btn-secondary">Get a quote<ArrowRight className="h-5 w-5" /></Link>
-            <a href={SITE.phoneHref} className="btn-ghost"><Phone className="h-4 w-4" />{SITE.phone}</a>
+            <a href={`mailto:${SITE.email}`} className="btn-ghost"><Mail className="h-4 w-4" />Email Us</a>
           </div>
         </div>
       </main>

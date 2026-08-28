@@ -3,6 +3,7 @@ import { Navbar } from "@/components/sections/Navbar";
 import { Footer } from "@/components/sections/Footer";
 import { CTABand } from "@/components/sections/CTABand";
 import { FAQ } from "@/components/sections/FAQ";
+import { FiftyStateMap } from "@/components/sections/FiftyStateMap";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { SITE, LOCATIONS } from "@/lib/site";
 import { AZ_REGIONS, GENERAL_FAQS, COPY } from "@/lib/content";
@@ -50,6 +51,8 @@ export default function CoveragePage() {
             </FadeIn>
           </div>
         </section>
+
+        <FiftyStateMap />
 
         <section className="bg-sonoran-sand py-16 md:py-20">
           <div className="container-tight">

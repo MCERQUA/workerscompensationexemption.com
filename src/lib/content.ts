@@ -134,7 +134,7 @@ export const COPY = {
     phonePlaceholder: "(602) 555-0100",
     messagePlaceholder:
       "Business type (sole prop, LLC, corporation), state, industry, number of owners, whether you have employees, current exemption status, or anything else that helps us advise you correctly…",
-    errorMessage: "Something went wrong. Please call us at 844-967-5247 or try again.",
+    errorMessage: "Something went wrong. Please email us or try again.",
     trustNicheTitle: "Built for exempt business owners",
     trustNicheDesc: "Guidance written for workers' comp exemptions — not generic insurance advice.",
   },
@@ -142,7 +142,7 @@ export const COPY = {
     h1Lead: "Let's talk about your",
     h1Highlight: "workers' comp exemption",
     lead: "Questions, a filing, or a compliance review — reach a specialist who knows exemption rules, not a queue.",
-    errorMessage: "Something went wrong. Please call us at 844-967-5247.",
+    errorMessage: "Something went wrong. Please email us and we'll pick it up from there.",
   },
   coveragePage: {
     metaTitle: "Workers' Comp Exemption Filing — All 50 States",

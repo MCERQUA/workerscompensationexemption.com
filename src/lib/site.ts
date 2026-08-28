@@ -9,10 +9,6 @@ export const SITE = {
   tagline: "File Your Workers' Comp Exemption the Right Way",
   description:
     "Expert guidance on workers' compensation exemptions for sole proprietors, corporate officers, and LLC members — state-by-state filing help, qualification review, and alternative coverage options when exemptions don't apply. All 50 states. Licensed agency.",
-  phone: "844-967-5247",
-  phoneAlt: "855-336-7189",
-  phoneHref: "tel:+18449675247",
-  phoneAltHref: "tel:+18553367189",
   email: "josh@contractorschoiceagency.com",
   founded: 2005,
   npn: "8608479",

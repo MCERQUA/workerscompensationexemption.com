@@ -7,7 +7,7 @@ import { Footer } from "@/components/sections/Footer";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { SITE } from "@/lib/site";
 import { US_STATES, QUOTE_SERVICE_TYPES, YEARS_OPTIONS, COPY } from "@/lib/content";
-import { CheckCircle2, ShieldCheck, ArrowRight, Phone, Clock, Zap, MapPin } from "lucide-react";
+import { CheckCircle2, ShieldCheck, ArrowRight, Clock, Zap, MapPin, Mail } from "lucide-react";
 
 
 const trustItems = [
@@ -78,7 +78,7 @@ export default function QuotePage() {
                 <FadeIn>
                   <div className="p-5 rounded-2xl bg-espresso text-cream text-center">
                     <p className="text-xs font-heading font-bold uppercase tracking-wider text-gold mb-2">Prefer to call?</p>
-                    <a href={SITE.phoneHref} className="flex items-center justify-center gap-2 text-cream font-heading font-extrabold text-xl hover:text-gold-light transition-colors"><Phone className="h-5 w-5" />{SITE.phone}</a>
+                    <a href={`mailto:${SITE.email}`} className="flex items-center justify-center gap-2 text-cream font-heading font-extrabold text-lg hover:text-gold-light transition-colors break-all"><Mail className="h-5 w-5 flex-shrink-0" />{SITE.email}</a>
                     <p className="text-xs text-cream/60 mt-1">{SITE.hours}</p>
                   </div>
                 </FadeIn>
@@ -91,7 +91,7 @@ export default function QuotePage() {
                       <div className="w-16 h-16 rounded-full bg-sage/15 flex items-center justify-center mx-auto mb-4"><CheckCircle2 className="h-8 w-8 text-sage" /></div>
                       <h2 className="font-heading font-extrabold text-espresso text-2xl mb-3">Quote request received</h2>
                       <p className="text-mocha mb-2">Thank you! We'll review your operation and reach out within one business day with personalized quotes.</p>
-                      <p className="text-sm text-mocha">Need it sooner? Call <a href={SITE.phoneHref} className="text-clay font-heading font-semibold">{SITE.phone}</a>.</p>
+                      <p className="text-sm text-mocha">Need it sooner? Email <a href={`mailto:${SITE.email}`} className="text-clay font-heading font-semibold break-all">{SITE.email}</a>.</p>
                       <Link href="/" className="btn-secondary mt-6 inline-flex">Back to home</Link>
                     </div>
                   </FadeIn>

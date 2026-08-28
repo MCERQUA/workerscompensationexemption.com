@@ -31,7 +31,7 @@ export function Process() {
 
         <FadeIn className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link href="/quote" className="btn-primary">Start my quote<ArrowRight className="h-5 w-5" /></Link>
-          <p className="text-sm text-mocha">Or call <a href={SITE.phoneHref} className="font-heading font-bold text-clay">{SITE.phone}</a> — usually answered live.</p>
+          <p className="text-sm text-mocha">Or email <a href={`mailto:${SITE.email}`} className="font-heading font-bold text-clay break-all">{SITE.email}</a> — we reply within one business day.</p>
         </FadeIn>
       </div>
     </section>

@@ -71,7 +71,7 @@ export default async function ServiceDetailPage({ params }: Props) {
     name: `${service.title} ${COPY.serviceDetail.h1Suffix}`,
     description: service.description,
     url,
-    provider: { "@type": "InsuranceAgency", name: SITE.name, url: SITE.url, telephone: "+18449675247", areaServed: { "@type": "Country", name: "United States" } },
+    provider: { "@type": "InsuranceAgency", name: SITE.name, url: SITE.url, areaServed: { "@type": "Country", name: "United States" } },
     serviceType: service.title,
     category: COPY.serviceDetail.category,
   };
@@ -99,7 +99,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                 {detail && <p className="mt-5 lead max-w-2xl">{detail.heroBlurb}</p>}
                 <div className="mt-7 flex flex-col sm:flex-row gap-3">
                   <Link href="/quote" className="btn-primary">Get a quote<ArrowRight className="h-5 w-5" /></Link>
-                  <a href={SITE.phoneHref} className="btn-secondary">Call {SITE.phone}</a>
+                  <a href={`mailto:${SITE.email}`} className="btn-secondary">Email Us</a>
                 </div>
               </FadeIn>
 

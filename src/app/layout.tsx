@@ -56,7 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     name: SITE.name,
     description: SITE.description,
     url: SITE.url,
-    telephone: "+18449675247",
+   
     email: SITE.email,
     image: `${SITE.url}/images/og-image.jpg`,
     logo: `${SITE.url}/images/og-image.jpg`,

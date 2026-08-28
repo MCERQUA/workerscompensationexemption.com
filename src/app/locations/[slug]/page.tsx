@@ -8,7 +8,7 @@ import { CTABand } from "@/components/sections/CTABand";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { LOCATIONS, SERVICES, SITE } from "@/lib/site";
 import { GENERAL_FAQS } from "@/lib/content";
-import { ArrowRight, ArrowLeft, MapPin, Phone, ShieldCheck } from "lucide-react";
+import { ArrowRight, ArrowLeft, MapPin, ShieldCheck, Mail } from "lucide-react";
 
 export function generateStaticParams() {
   return LOCATIONS.map((l) => ({ slug: l.slug }));
@@ -53,7 +53,7 @@ export default async function LocationPage({ params }: Props) {
     description: loc.blurb,
     url,
     areaServed: { "@type": "Place", name: loc.name },
-    provider: { "@type": "InsuranceAgency", name: SITE.name, url: SITE.url, telephone: "+18449675247" },
+    provider: { "@type": "InsuranceAgency", name: SITE.name, url: SITE.url },
   };
   const faqSchema = {
     "@context": "https://schema.org",
@@ -83,7 +83,7 @@ export default async function LocationPage({ params }: Props) {
                 <p className="mt-5 lead max-w-2xl">{loc.blurb}</p>
                 <div className="mt-7 flex flex-col sm:flex-row gap-3">
                   <Link href="/quote" className="btn-primary">Get a {loc.name} quote<ArrowRight className="h-5 w-5" /></Link>
-                  <a href={SITE.phoneHref} className="btn-secondary"><Phone className="h-5 w-5" />{SITE.phone}</a>
+                  <a href={`mailto:${SITE.email}`} className="btn-secondary"><Mail className="h-5 w-5" />Email Us</a>
                 </div>
               </FadeIn>
 
@@ -119,7 +119,7 @@ export default async function LocationPage({ params }: Props) {
 
         <FAQ items={locFaqs} eyebrow={`${loc.name} — FAQ`} title={<>Workers' comp exemption questions for <span className="text-clay">{loc.name}</span></>} background="sand" />
 
-        <CTABand title={`Filing workers' comp exemptions in ${loc.name} since 2005`} description={`State-specific exemption expertise and 15-minute consultations. Call ${SITE.phone} or request guidance online.`} />
+        <CTABand title={`Filing workers' comp exemptions in ${loc.name} since 2005`} description={`State-specific exemption expertise and 15-minute consultations. Request guidance online and we\u2019ll come back to you.`} />
       </main>
       <Footer />
     </>
