@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { US_STATES, STATE_GRID_COLS, STATE_GRID_ROWS } from "@/lib/states";
 import { FadeIn } from "@/components/animations/FadeIn";
 
@@ -45,7 +46,7 @@ export function FiftyStateMap({
                 const x = s.col * (TILE + GAP);
                 const y = s.row * (TILE + GAP);
                 return (
-                  <g key={s.abbr}>
+                  <a key={s.abbr} href={`/states/${s.slug}`} className="cursor-pointer">
                     <title>{s.name}</title>
                     <rect
                       x={x}
@@ -53,7 +54,7 @@ export function FiftyStateMap({
                       width={TILE}
                       height={TILE}
                       rx={6}
-                      className="fill-clay/12 stroke-clay/35"
+                      className="fill-clay/15 stroke-clay/35 hover:fill-clay/30 transition-colors"
                       strokeWidth={1}
                     />
                     <text
@@ -67,7 +68,7 @@ export function FiftyStateMap({
                     >
                       {s.abbr}
                     </text>
-                  </g>
+                  </a>
                 );
               })}
             </svg>
@@ -81,11 +82,16 @@ export function FiftyStateMap({
           </h3>
           <ul className="mt-5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-2.5">
             {alphabetical.map((s) => (
-              <li key={s.slug} className="flex items-baseline gap-2 text-mocha">
-                <span className="font-heading font-bold text-clay text-xs w-6 flex-shrink-0">
-                  {s.abbr}
-                </span>
-                <span className="text-sm">{s.name}</span>
+              <li key={s.slug}>
+                <Link
+                  href={`/states/${s.slug}`}
+                  className="flex items-baseline gap-2 text-mocha hover:text-clay transition-colors"
+                >
+                  <span className="font-heading font-bold text-clay text-xs w-6 flex-shrink-0">
+                    {s.abbr}
+                  </span>
+                  <span className="text-sm">{s.name}</span>
+                </Link>
               </li>
             ))}
           </ul>
