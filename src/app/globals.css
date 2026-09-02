@@ -187,3 +187,12 @@
 ::-webkit-scrollbar-thumb { background: var(--clay); border-radius: 6px; border: 2px solid var(--bg-sand); }
 ::-webkit-scrollbar-thumb:hover { background: var(--clay-dark); }
 :focus-visible { outline: 2px solid var(--clay); outline-offset: 3px; border-radius: 4px; }
+
+/* A horizontal FadeIn (direction="left"/"right") holds its element at translateX(±30px)
+   until it scrolls into view, so anything below the fold widened the document to 404px in a
+   390px viewport and the page scrolled sideways on a phone. Clip the axis the page never
+   scrolls. `clip` rather than `hidden`: it does not create a scroll container, so sticky
+   positioning inside main keeps working. The animations themselves are untouched. */
+main {
+  overflow-x: clip;
+}
