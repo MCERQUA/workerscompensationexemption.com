@@ -84,7 +84,7 @@ export function QuotePopup() {
           </h2>
         </div>
         <div style={{ padding: "20px 22px 22px" }}>
-          <p style={{ margin: "0 0 12px", fontSize: 14, lineHeight: 1.6, color: "#374151" }}>Our team is working through exemption requests right now, so filing online is the quickest way to reach us.</p>
+          <p style={{ margin: "0 0 12px", fontSize: 14, lineHeight: 1.6, color: "#374151" }}>Submitting your information online gives us everything we need to process your request correctly — so our team can work more efficiently and get back to you faster.</p>
           <p style={{ margin: "0 0 12px", fontSize: 14, lineHeight: 1.6, color: "#374151" }}>
             If you'd prefer to speak with someone please call us at{" "}
             <a href={PHONE_HREF} style={{ color: BRAND, fontWeight: 700, whiteSpace: "nowrap" }}>{PHONE}</a>
