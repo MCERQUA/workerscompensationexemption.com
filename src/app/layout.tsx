@@ -3,6 +3,7 @@ import { headingFont, bodyFont } from "@/lib/fonts";
 import { SmoothScroll } from "@/components/animations/SmoothScroll";
 import { SITE } from "@/lib/site";
 import "./globals.css";
+import { QuotePopup, FloatingQuoteBar } from "@/components/QuotePopup";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -90,6 +91,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="antialiased">
         <SmoothScroll>{children}</SmoothScroll>
+        <QuotePopup />
+        <FloatingQuoteBar />
       </body>
     </html>
   );
