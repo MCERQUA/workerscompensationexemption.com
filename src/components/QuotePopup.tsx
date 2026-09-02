@@ -85,8 +85,11 @@ export function QuotePopup() {
         </div>
         <div style={{ padding: "20px 22px 22px" }}>
           <p style={{ margin: "0 0 12px", fontSize: 14, lineHeight: 1.6, color: "#374151" }}>Submitting your information online gives us everything we need to process your request correctly — so our team can work more efficiently and get back to you faster.</p>
-          <p style={{ margin: "0 0 18px", fontSize: 14, lineHeight: 1.6, color: "#374151" }}>
+          <p style={{ margin: "0 0 12px", fontSize: 14, lineHeight: 1.6, color: "#374151" }}>
             If you'd prefer to speak with someone, you're welcome to submit the form first and then call us at 844-967-5247.
+          </p>
+          <p style={{ margin: "0 0 18px", fontSize: 14, lineHeight: 1.6, color: "#374151" }}>
+            Please submit whatever you can &mdash; every detail you give us saves both of us time.
           </p>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
             <Link href={QUOTE_ROUTE} onClick={dismiss}
