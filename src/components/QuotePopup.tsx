@@ -36,7 +36,7 @@ export function FloatingQuoteBar() {
                   borderTop: `3px solid ${BRAND}`, boxShadow: "0 -4px 18px rgba(0,0,0,0.14)" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "10px 16px", display: "flex", flexWrap: "wrap",
                     alignItems: "center", justifyContent: "space-between", gap: 10 }}>
-        <p style={{ margin: 0, fontSize: 14, color: "#1f2937", lineHeight: 1.45 }}>
+        <p style={{ margin: 0, fontSize: 14, color: "#2E241E", lineHeight: 1.45 }}>
           <strong>Our team is working through requests now.</strong>{" "}Submit online to get in the queue faster — or call{" "}
           <a href={PHONE_HREF} style={{ pointerEvents: "auto", color: BRAND, fontWeight: 700, whiteSpace: "nowrap" }}>{PHONE}</a>.
         </p>
@@ -105,12 +105,12 @@ export function QuotePopup() {
           </h2>
         </div>
         <div style={{ padding: "20px 22px 22px" }}>
-          <p style={{ margin: "0 0 12px", fontSize: 14, lineHeight: 1.6, color: "#374151" }}>Submitting your information online gives us everything we need to process your request correctly — so our team can work more efficiently and get back to you faster.</p>
-          <p style={{ margin: "0 0 12px", fontSize: 14, lineHeight: 1.6, color: "#374151" }}>
+          <p style={{ margin: "0 0 12px", fontSize: 14, lineHeight: 1.6, color: "#44403C" }}>Submitting your information online gives us everything we need to process your request correctly — so our team can work more efficiently and get back to you faster.</p>
+          <p style={{ margin: "0 0 12px", fontSize: 14, lineHeight: 1.6, color: "#44403C" }}>
             If you'd prefer to speak with someone please call us at{" "}
             <a href={PHONE_HREF} style={{ pointerEvents: "auto", color: BRAND, fontWeight: 700, whiteSpace: "nowrap" }}>{PHONE}</a>
           </p>
-          <p style={{ margin: "0 0 18px", fontSize: 14, lineHeight: 1.6, color: "#374151" }}>
+          <p style={{ margin: "0 0 18px", fontSize: 14, lineHeight: 1.6, color: "#44403C" }}>
             Please submit whatever you can &mdash; every detail you give us saves both of us time.
           </p>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
@@ -120,7 +120,7 @@ export function QuotePopup() {
               Start Your Request
             </Link>
             <button onClick={dismiss}
-              style={{ flex: "1 1 120px", background: "#fff", color: "#374151", border: "1px solid #d1d5db",
+              style={{ flex: "1 1 120px", background: "#fff", color: "#44403C", border: "1px solid #D3CBC0",
                        padding: "12px 18px", borderRadius: 10, fontWeight: 600, fontSize: 14, cursor: "pointer" }}>
               Not now
             </button>
