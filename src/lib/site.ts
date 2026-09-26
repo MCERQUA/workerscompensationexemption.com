@@ -156,8 +156,3 @@ export const STATS = [
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
 
-export const TESTIMONIALS = [
-  { quote: "I had no idea Florida had a 10-officer cap on construction exemptions. These folks walked me through the entire process, filed everything correctly, and my exemption was approved in days. Saved me thousands in workers' comp premiums.", name: "Marcus T.", role: "General Contractor", location: "Florida" },
-  { quote: "As a single-member LLC in Arizona, I wasn't sure if I qualified for an exemption. They reviewed my situation, confirmed I was eligible, and handled the filing. Now I have a ghost policy for my COI and I'm set.", name: "Sandra L.", role: "LLC Owner", location: "Arizona" },
-  { quote: "Texas non-subscriber rules are confusing. I thought I was covered until they explained what 'opt out' actually means for my corporate officers. Got us properly set up with alternative coverage and a clear compliance plan.", name: "Derek W.", role: "Corporate Officer", location: "Texas" },
-] as const;

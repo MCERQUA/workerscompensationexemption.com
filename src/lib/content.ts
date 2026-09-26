@@ -51,11 +51,6 @@ export const COPY = {
   process: {
     lead: "No guessing and no forms filled out wrong. A real conversation, the right guidance, and a filing your state will approve — built around your business structure and industry.",
   },
-  testimonials: {
-    eyebrow: "From business owners",
-    h2Lead: "Business owners who got",
-    h2Highlight: "their exemptions filed right",
-  },
   finalCta: {
     h2Lead: "File Your Workers' Comp Exemption",
     h2Highlight: "with guidance that gets it right.",
